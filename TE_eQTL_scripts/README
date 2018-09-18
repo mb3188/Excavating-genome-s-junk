@@ -1,0 +1,64 @@
+TE SEQUENCES ARE ON THE READ 1 AND FOR THAT REASON IT'S IMPORTANT TO MAP ONLY READ1 TO THE GENOME BUT IT SHOULD BE PROBABLY TRIMMED BEFORE IT GETS MAPPED AS ALL THOSE TE EXTENSIONS WILL NOT ALLOW TO MAP . 
+
+
+PRIMER IS MAV= MAVERIK TE:  ATTTGACACTTTACRAAACC
+
+PRIMER IS MR=MARINER: CAAAGGTGCGTTTAGCACAG
+
+
+x=raw_input("Insert score between 0.0 and 1.0")
+for i in range (x):
+	print i
+	if i >= float(0.9):
+		print 'A'
+	if i >= float (0.8):
+		print 'B'
+	if i >= float (0.7):
+		print 'C'
+	if i >= float(0.6):
+		print 'D'
+	if i < float(0.6):
+		print 'F'
+	elif i > float(1.0):
+		print 'Out of range'
+		
+x=raw_input("Insert score between 0.0 and 1.0")
+	if x >= float(0.9):
+		print 'A'
+	if i >= float (0.8):
+		print 'B'
+	if i >= float (0.7):
+		print 'C'
+	if i >= float(0.6):
+		print 'D'
+	if i < float(0.6):
+		print 'F'
+	elif i > float(1.0):
+		print 'Out of range'
+		
+		
+		x=raw_input("Insert score between 0.0 and 1.0")
+for i in range (0,1):
+	print i
+	if i >= float(0.9):
+		print 'A'
+	if i >= float (0.8):
+		print 'B'
+	if i >= float (0.7):
+		print 'C'
+	if i >= float(0.6):
+		print 'D'
+	if i < float(0.6):
+		print 'F'
+	elif i > float(1.0):
+		print 'Out of range'
+		
+		
+		
+		
+		# This first line is provided for you
+
+hrs = raw_input("Enter Hours:")
+rate = raw_input("Enter Rate per Hour:")
+gross_pay = float(hrs)* float(rate)
+print gross_pay 
